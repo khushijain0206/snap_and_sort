@@ -169,3 +169,6 @@ The backend loads this prompt file at request time and passes it as the system m
 - **localStorage instead of a database** — The assignment requires local persistence only; localStorage is zero-setup, synchronous, and sufficient for a single user's receipts. It would not scale beyond one device.
 - **AI via the backend** — Keeps the API key off the client, allows server-side validation of the AI response, and centralizes prompt management in one file. The frontend never talks to OpenAI directly.
 
+## Changes for 10000 users
+
+If this app had to support around 10,000 users, the first thing I would change is the way data is stored. Instead of storing everything locally, I would use a proper cloud database with user accounts so that users can access their receipts from different devices. I would also add cloud storage for receipt images and improve the backend so it can handle more requests. Since AI requests can take time and also cost money, I would add request limits, monitoring and a queue system to handle a large number of users
