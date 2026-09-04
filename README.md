@@ -34,6 +34,9 @@ Snap &amp; Sort helps you digitize receipts without manual data entry. You captu
 
 The app **never** saves the AI result automatically — the user must review and press Save.
 
+## Demo link
+https://snap-and-sort-receip-44dm.bolt.host/
+
 ## Project Structure
 
 ```
