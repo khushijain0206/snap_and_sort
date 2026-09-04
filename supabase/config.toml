@@ -1,0 +1,4 @@
+# Snap & Sort — Supabase config
+
+[functions.extract]
+verify_jwt = false
